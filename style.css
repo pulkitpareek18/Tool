@@ -1,0 +1,71 @@
+.links {
+    margin-right: 2vw;
+}
+
+.links a {
+    margin-left: 2vw;
+    color: rgb(19, 17, 17);
+    padding: 0.5vw;
+    background-color: lightgray;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.5vw;
+}
+
+.links a:hover {
+    color: purple !important;
+    background-color: lightblue;
+}
+
+img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;    
+}
+
+@media only screen and (max-width: 670px) {
+    .links a {
+        margin-left: 1.4vw;
+        padding: 0.9vw;
+        border-radius: 0.9vw;
+        font-weight: normal;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .brand {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links {
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .links a {
+        margin-left: 0.5vw !important;
+    padding: 0.5vw;
+    border-radius: 0.9vw;
+    font-weight: normal;
+    font-size: 14.4px;
+    }
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+h4{
+    font-size: 2.5rem;
+}
+
+
+
