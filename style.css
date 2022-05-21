@@ -17,12 +17,12 @@
     background-color: lightblue;
 }
 
-img{
+.container img {
     border-radius: 10px;
     margin-bottom: 10px;
     border-color: black;
     border-style: solid;
-    border-width: 2px;    
+    border-width: 2px;
 }
 
 @media only screen and (max-width: 670px) {
@@ -46,26 +46,51 @@ img{
         margin-right: auto;
     }
 }
+
 @media only screen and (max-width: 360px) {
     .links a {
         margin-left: 0.5vw !important;
-    padding: 0.5vw;
-    border-radius: 0.9vw;
-    font-weight: normal;
-    font-size: 14.4px;
+        padding: 0.5vw;
+        border-radius: 0.9vw;
+        font-weight: normal;
+        font-size: 14.4px;
     }
 }
 
-p{
+p {
     font-size: 1.5rem;
 }
 
-h1{
+h1 {
     font-size: 4rem;
 }
-h4{
+
+h4 {
     font-size: 2.5rem;
 }
 
 
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(150, 144, 144);
+    border-radius: 11px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#footer {
+    background-color: lightgray;
+}

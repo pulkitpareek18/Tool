@@ -5,54 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Download Video lectures from ALLEN Plus in each quality easily by using this website. Easily download your video lectures in high quality and low quality both.">
-    <meta name="keywords" content="allen plus, ALLEN Plus, allen plus video download, allen, allen video download, how to download allen plus videos, how to download video from allen plus">
+    <meta name="description"
+        content="Download Video lectures from ALLEN Plus in every quality easily by using this website. Easily download your video lectures in high quality and low quality both.">
+    <meta name="keywords"
+        content="allen plus, ALLEN Plus, allen plus video download, allen, allen video download, how to download allen plus videos, how to download video from allen plus">
     <meta property="og:title" content="ALLEN Plus Video Downloader: Download ALLEN Plus Videos" />
     <meta property="og:image" content="img/og image allen plus.png" />
     <meta property="og:type" content="tool" />
-    <meta property="og:description" content="Download Video lectures from ALLEN Plus in each quality easily by using this website." />
+    <meta property="og:description"
+        content="Download Video lectures from ALLEN Plus in every quality easily by using this website." />
     <meta property="og:locale" content="en_US" />
-
-
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/ALLEN Plus.png" type="image/x-icon">
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
     <title>ALLEN Plus Video Downloader: Download ALLEN Plus Videos</title>
 </head>
 
 <body>
-<div class="m-0"id="alert"></div>    
-<nav class="navbar navbar-light bg-light mt-0">
+    <!-- Special Alerts Div -->
+    <div class="m-0" id="alert"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light mt-0">
         <div class="brand">
             <a class="navbar-brand" href="/">
-                <img src="img/ALLEN Plus.png" width="30" height="30"
-                    class="d-inline-block align-top" alt=""> ALLEN Plus Video Downloader
+                <img src="img/ALLEN Plus.png" width="30" height="30" class="d-inline-block align-top" alt=""> ALLEN Plus
+                Video Downloader
             </a>
         </div>
         <div class="links">
-            <a>Home</a>
-            <a>About Us</a>
-            <a>Contact Us</a>
-            <a>Privacy Policy</a>
+            <a href="/">Home</a>
+            <a href="/about-us.html ">About Us</a>
+            <a href="/contact-us.html">Contact Us</a>
+            <a href="/privacy-policy.html">Privacy Policy</a>
         </div>
     </nav>
+    <!-- Information Div  -->
+    <div id="info" class="alert alert-primary alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Information!</strong> If the video doesn't play upon playing then please regain the code from ALLEN Plus
+        and try. You may also see an Error when clicking the Download button. The chances of this case is around 1% but
+        if this happen then please get a new code from ALLEN Plus. This occurs due to old code which has been generated
+        around 1-1.5 hours ago.
+    </div>
+
+    <!-- All Data Container -->
     <div class="container">
-        <textarea class="form-control mt-5 border-primary" placeholder="Enter the code you copied from the script tag on ALLEN Plus." id="code" rows="10"></textarea>
-        <button class="btn btn-primary mt-2" onclick="get_video()">Get Video</button>
+        <textarea class="form-control mt-5 border-primary"
+            placeholder="Enter the code you copied from the script tag on ALLEN Plus." id="code" rows="10"></textarea>
+        <button class="btn btn-primary mt-2" id="get_video_btn" onclick="get_video()" type="button">
+            <span id="loader" class="spinner-border spinner-border-sm" style="display: none;" role="status"></span>
+            Get Video </button>
+        <!-- Videos Container -->
         <div class="row text-center" id="data"></div>
         <br><br>
         <h1>How to use this Tool</h1>
-        <p>This tool Will help you to Download Video lectures from <b>ALLEN Plus</b>. To use this tool just refer the steps written below.</p>
+        <p>This tool Will help you to Download Video lectures from <b>ALLEN Plus</b>. To use this tool just refer the
+            steps written below.</p>
         <h4>STEP-1: Enabling Right Click</h4>
         <p>To use this tool you first have to turn on right click on <b>ALLEN Plus</b>.</p>
         <p>The developers of <b>ALLEN Plus</b> has disabled right click on the website.</p>
-        <p>So to enable right click You just have to install an Chrome Extension named "Ultimate Enable Right Click" from the Chrome Web Store.</p>
-        <p>Now go to ALLEN Plus and activate the Extension. When you click on that Extension it will ask you to reload the page. Just reload the page and your 1st step is done.</p>
+        <p>So to enable right click You just have to install an Chrome Extension named "<a href="https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen" target="_blank">Ultimate Enable Right Click</a>"
+            from the Chrome Web Store.</p>
+        <p>Now go to ALLEN Plus and activate the Extension. When you click on that Extension it will ask you to reload
+            the page. Just reload the page and your 1st step is done.</p>
         <h4>STEP-2: Getting Code from ALLEN Plus</h4>
         <p>Now play the video you want to Download.</p>
         <img class="img-fluid" src="img/Screenshot (36).png" alt="">
@@ -60,9 +74,10 @@
         <img class="img-fluid" src="img/Screenshot (37).png" alt="">
         <p>A new window will open where you can see the code.</p>
         <img class="img-fluid" src="img/Screenshot (38).png" alt="">
-        <p>On that window just scroll down and find the <b>&lt;script&gt;...&lt;/script&gt;</b> tag which is located below the
+        <p>On that window just scroll down and find the <b>&lt;script&gt;...&lt;/script&gt;</b> tag which is located
+            below the
         <p><b>&lt;div class="vp-alert hidden" role="alertdialog" aria-atomic="true" hidden&gt;&lt;/div&gt;</b> code</p>
-        <p>where you can see a big code. Just copy that code.</p> 
+        <p>where you can see a big code. Just copy that code.</p>
         <h4>STEP-3: Downloading the video via ALLEN Plus Video Downloader</h4>
         <p>Now simply paste the code in the above textbox which you have copied from ALLEN Plus.</p>
         <img class="img-fluid" src="img/Screenshot (39).png" alt="">
@@ -70,15 +85,33 @@
         <img class="img-fluid" src="img/Screenshot (40).png" alt="">
         <p>As you click on that button the video with multiple Quality options will be displayed below.</p>
         <img class="img-fluid" src="img/Screenshot (41).png" alt="">
-        <p>Just click on the <b>Download</b> button of the video with their respective Qualities you want to Download.</p>
-        <p>As you click on the Download button the video will open in a new tab from where you can view the video or can download the video easily.</p>
+        <p>Just click on the <b>Download</b> button of the video with their respective Qualities you want to Download.
+        </p>
+        <p>As you click on the Download button the video will open in a new tab from where you can view the video or can
+            download the video easily.</p>
         <p><b>This was the Easy Three Step process for Downloading video from <b>ALLEN Plus</b>.</b></p>
 
     </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div id="footer" class="footer-copyright text-center py-3">©
+            <script>document.write(new Date().getFullYear());</script> Copyright:
+            <a href="/"> allenplusvideodownloader.ml</a>
+        </div>
+
+    </footer>
+    <!-- Main Functional JS File -->
     <script src="functions.js"></script>
-
-
-
+    <!-- jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
