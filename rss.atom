@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+
+	<title>ALLEN Plus Video Downloader: Download ALLEN Plus Videos</title>
+	<subtitle>ALLEN Plus Video Downloader: Download Video lectures from ALLEN Plus in every quality easily by using this website. Easily download your video lectures in high quality and low quality both.</subtitle>
+	<link href="http://fetchrss.com/rss/628f070eb5205e3527749e22628f0696416f4f7448784f42.atom" rel="self" />
+	<link href="https://www.allenplusvideodownloader.ml" rel="alternate" type="text/html" />
+	<link href="http://fetchrss.com/rss/628f070eb5205e3527749e22628f0696416f4f7448784f42.xml" rel="alternate" type="application/rss+xml" />
+	<id>http://fetchrss.com/rss/628f070eb5205e3527749e22628f0696416f4f7448784f42.xml</id>
+	<updated>2022-05-26T04:48:22+00:00</updated>
+	<generator uri="https://fetchrss.com" version="1.0">FetchRSS</generator>
+	<icon>https://www.google.com/s2/favicons?domain=https://www.allenplusvideodownloader.ml</icon>
+
+		<entry>
+			<title>How to use this Tool</title>
+			<link href="https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen" rel="alternate" />
+			<content type="html">&lt;p&gt;This tool Will help you to Download Video lectures from &lt;b&gt;ALLEN Plus&lt;/b&gt;. To use this tool just refer the
+            steps written below.&lt;/p&gt;&lt;p&gt;To use this tool you first have to turn on right click on &lt;b&gt;ALLEN Plus&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The developers of &lt;b&gt;ALLEN Plus&lt;/b&gt; has disabled right click on the website.&lt;/p&gt;&lt;p&gt;So to enable right click You just have to install an Chrome Extension named "&lt;a href="https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen" target="_blank"&gt;Ultimate Enable Right Click&lt;/a&gt;"
+            from the Chrome Web Store.&lt;/p&gt;&lt;p&gt;Now go to ALLEN Plus and activate the Extension. When you click on that Extension it will ask you to reload
+            the page. Just reload the page and your 1st step is done.&lt;/p&gt;&lt;p&gt;Now play the video you want to Download.&lt;/p&gt;&lt;p&gt;Just right click on the video and click on Inspect.&lt;/p&gt;&lt;p&gt;A new window will open where you can see the code.&lt;/p&gt;&lt;p&gt;On that window just scroll down and find the &lt;b&gt;&lt;script&gt;...&lt;/script&gt;&lt;/b&gt; tag which is located
+            below the
+        &lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;div class="vp-alert hidden" role="alertdialog" aria-atomic="true" hidden&gt;&lt;/div&gt;&lt;/b&gt; code&lt;/p&gt;&lt;p&gt;where you can see a big code. Just copy that code.&lt;/p&gt;&lt;p&gt;Now simply paste the code in the above textbox which you have copied from ALLEN Plus.&lt;/p&gt;&lt;p&gt;After pasting the code click on the &lt;b&gt;Get Video&lt;/b&gt; button.&lt;/p&gt;&lt;p&gt;As you click on that button the video with multiple Quality options will be displayed below.&lt;/p&gt;&lt;p&gt;Just click on the &lt;b&gt;Download&lt;/b&gt; button of the video with their respective Qualities you want to Download.
+        &lt;/p&gt;&lt;p&gt;As you click on the Download button the video will open in a new tab from where you can view the video or can
+            download the video easily.&lt;/p&gt;&lt;p&gt;
+  &lt;b&gt;This was the Easy Three Step process for Downloading video from &lt;b&gt;ALLEN Plus&lt;/b&gt;.&lt;/b&gt;
+&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style="font-size:12px; color: gray;"&gt;(Feed generated with &lt;a href="https://fetchrss.com" target="_blank"&gt;FetchRSS&lt;/a&gt;)&lt;/span&gt;</content>
+			<updated>2022-05-26T04:48:22+00:00</updated>
+			<id>https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen</id>
+		</entry>
+
+
+</feed>
