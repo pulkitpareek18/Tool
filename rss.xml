@@ -1,61 +1,53 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0" version="2.0">
-    <channel>
-        <lastBuildDate>Tue, 24 May 2022 09:49:22 +0000</lastBuildDate>
-        <title>ALLEN Plus Video Downloader</title>
-        <description>ALLEN Plus Video Downloader: Download Video lectures from ALLEN Plus in every quality easily by using this website. Easily download your video lectures in high quality and low quality both.</description>
-        <link>https://www.allenplusvideodownloader.ml/</link>
-        <managingEditor>pulkitpareek18@gmail.com (Pulkit Pareek)</managingEditor>
-        <generator>Pulkit Pareek</generator>
-        <openSearch:totalResults>1</openSearch:totalResults>
-        <openSearch:startIndex>1</openSearch:startIndex>
-        <openSearch:itemsPerPage>1</openSearch:itemsPerPage>
-        <item>
-            <pubDate>Sun, 22 May 2022 16:39:00 +0000</pubDate>
-            <atom:updated>2022-05-24T11:48:36.494+05:30</atom:updated>
-            <title>Free website to download ALLEN Plus video Lectures : ALLEN Plus Video Downloader</title>
-            <description>&lt;h1&gt;How to use this Tool&lt;/h1&gt;
+
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link rel="self" href="https://createfeed.fivefilters.org/mergefeeds.php?url%5B0%5D=https%3A%2F%2Fallenplusvideodownloader.ml%2Frss.xml&amp;max=5&amp;order=feed" />
+<atom:link rel="related" title="Edit feed with Feed Creator" href="https://createfeed.fivefilters.org/index-mergefeeds.php?url%5B0%5D=https%3A%2F%2Fallenplusvideodownloader.ml%2Frss.xml&amp;max=5&amp;order=feed" />
+<title>ALLEN Plus Video Downloader</title>
+<link>https://www.allenplusvideodownloader.ml/</link>
+<description>ALLEN Plus Video Downloader: Download Video lectures from ALLEN Plus in every quality easily by using this website. Easily download your video lectures in high quality and low quality both.</description>
+<item>
+<title>Free website to download ALLEN Plus video Lectures : ALLEN Plus Video Downloader</title>
+<link>https://www.allenplusvideodownloader.ml/</link>
+<description>&lt;h1&gt;How to use this Tool&lt;/h1&gt;
         &lt;p&gt;This tool Will help you to Download Video lectures from &lt;b&gt;ALLEN Plus&lt;/b&gt;. To use this tool just refer the
             steps written below.&lt;/p&gt;
         &lt;h4&gt;STEP-1: Enabling Right Click&lt;/h4&gt;
         &lt;p&gt;To use this tool you first have to turn on right click on &lt;b&gt;ALLEN Plus&lt;/b&gt;.&lt;/p&gt;
         &lt;p&gt;The developers of &lt;b&gt;ALLEN Plus&lt;/b&gt; has disabled right click on the website.&lt;/p&gt;
-        &lt;p&gt;So to enable right click You just have to install an Chrome Extension named &quot;&lt;a
-                href=&quot;https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen&quot;
-                target=&quot;_blank&quot;&gt;Ultimate Enable Right Click&lt;/a&gt;&quot;
+        &lt;p&gt;So to enable right click You just have to install an Chrome Extension named "&lt;a href="https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen" target="_blank"&gt;Ultimate Enable Right Click&lt;/a&gt;"
             from the Chrome Web Store.&lt;/p&gt;
         &lt;p&gt;Now go to ALLEN Plus and activate the Extension. When you click on that Extension it will ask you to reload
             the page. Just reload the page and your 1st step is done.&lt;/p&gt;
         &lt;h4&gt;STEP-2: Getting Code from ALLEN Plus&lt;/h4&gt;
         &lt;p&gt;Now play the video you want to Download.&lt;/p&gt;
-        &lt;img class=&quot;img-fluid&quot; src=&quot;https://www.allenplusvideodownloader.ml/img/Screenshot (36).png&quot; alt=&quot;&quot;&gt;
+        &lt;img class="img-fluid" src="https://www.allenplusvideodownloader.ml/img/Screenshot%20(36).png" alt=""&gt;
         &lt;p&gt;Just right click on the video and click on Inspect.&lt;/p&gt;
-        &lt;img class=&quot;img-fluid&quot; src=&quot;https://www.allenplusvideodownloader.ml/img/Screenshot (37).png&quot; alt=&quot;&quot;&gt;
+        &lt;img class="img-fluid" src="https://www.allenplusvideodownloader.ml/img/Screenshot%20(37).png" alt=""&gt;
         &lt;p&gt;A new window will open where you can see the code.&lt;/p&gt;
-        &lt;img class=&quot;img-fluid&quot; src=&quot;https://www.allenplusvideodownloader.ml/img/Screenshot (38).png&quot; alt=&quot;&quot;&gt;
+        &lt;img class="img-fluid" src="https://www.allenplusvideodownloader.ml/img/Screenshot%20(38).png" alt=""&gt;
         &lt;p&gt;On that window just scroll down and find the &lt;b&gt;&amp;lt;script&amp;gt;...&amp;lt;/script&amp;gt;&lt;/b&gt; tag which is located
             below the
-        &lt;p&gt;&lt;b&gt;&amp;lt;div class=&quot;vp-alert hidden&quot; role=&quot;alertdialog&quot; aria-atomic=&quot;true&quot; hidden&amp;gt;&amp;lt;/div&amp;gt;&lt;/b&gt; code&lt;/p&gt;
+        &lt;/p&gt;&lt;p&gt;&lt;b&gt;&amp;lt;div class="vp-alert hidden" role="alertdialog" aria-atomic="true" hidden&amp;gt;&amp;lt;/div&amp;gt;&lt;/b&gt; code&lt;/p&gt;
         &lt;p&gt;where you can see a big code. Just copy that code.&lt;/p&gt;
         &lt;h4&gt;STEP-3: Downloading the video via ALLEN Plus Video Downloader&lt;/h4&gt;
         &lt;p&gt;Now simply paste the code in the above textbox which you have copied from ALLEN Plus.&lt;/p&gt;
-        &lt;img class=&quot;img-fluid&quot; src=&quot;https://www.allenplusvideodownloader.ml/img/Screenshot (39).png&quot; alt=&quot;&quot;&gt;
+        &lt;img class="img-fluid" src="https://www.allenplusvideodownloader.ml/img/Screenshot%20(39).png" alt=""&gt;
         &lt;p&gt;After pasting the code click on the &lt;b&gt;Get Video&lt;/b&gt; button.&lt;/p&gt;
-        &lt;img class=&quot;img-fluid&quot; src=&quot;https://www.allenplusvideodownloader.ml/img/Screenshot (40).png&quot; alt=&quot;&quot;&gt;
+        &lt;img class="img-fluid" src="https://www.allenplusvideodownloader.ml/img/Screenshot%20(40).png" alt=""&gt;
         &lt;p&gt;As you click on that button the video with multiple Quality options will be displayed below.&lt;/p&gt;
-        &lt;img class=&quot;img-fluid&quot; src=&quot;https://www.allenplusvideodownloader.ml/img/Screenshot (41).png&quot; alt=&quot;&quot;&gt;
+        &lt;img class="img-fluid" src="https://www.allenplusvideodownloader.ml/img/Screenshot%20(41).png" alt=""&gt;
         &lt;p&gt;Just click on the &lt;b&gt;Download&lt;/b&gt; button of the video with their respective Qualities you want to Download.
         &lt;/p&gt;
         &lt;p&gt;As you click on the Download button the video will open in a new tab from where you can view the video or can
             download the video easily.&lt;/p&gt;
-        &lt;p&gt;&lt;b&gt;This was the Easy Three Step process for Downloading video from &lt;b&gt;ALLEN Plus&lt;/b&gt;.&lt;/b&gt;&lt;/p&gt;
-</description>
-            <link>https://www.allenplusvideodownloader.ml</link>
-            <author>pulkitpareek18@gmail.com (Pulkit Pareek)</author>85
-            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.allenplusvideodownloader.ml/img/ALLEN%20Plus.png" height="72" width="72" />
-            <thr:total>0</thr:total>
-        </item>
-
-
-    </channel>
+        &lt;p&gt;&lt;b&gt;This was the Easy Three Step process for Downloading video from &lt;b&gt;ALLEN Plus&lt;/b&gt;.&lt;/b&gt;&lt;/p&gt;</description>
+<pubDate>Sun, 22 May 2022 18:39:00 +0200</pubDate>
+<dc:creator>pulkitpareek18@gmail.com (Pulkit Pareek)</dc:creator>
+<guid isPermaLink="false" >92e8bc8feb3b486b8245486f009b8a05</guid>
+<media:thumbnail url="https://www.allenplusvideodownloader.ml/img/ALLEN%20Plus.png" ></media:thumbnail>
+</item>
+</channel>
 </rss>
