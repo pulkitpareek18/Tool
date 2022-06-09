@@ -32,8 +32,8 @@ function get_video() {
         </div>
         <div class="card-body">
             <h5 class="card-title">Quality: <b>${quality}</b></h5>
-            <p class="card-text">Download this video in <b>${quality}</b> by clicking the button below.</p>
-            <a href="${url}" target="_blank" class="btn btn-primary">Download</a>
+            <p class="card-text">View this video in <b>${quality}</b> by clicking the button below.</p>
+            <a href="${url}" target="_blank" class="btn btn-primary">View Video</a>
         </div>
         </div> `
             }
