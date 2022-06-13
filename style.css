@@ -1,9 +1,17 @@
 .links {
     margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0px !important;
 }
 
 .links a {
     margin-left: 2vw;
+    margin-bottom: 5px;
     color: rgb(19, 17, 17);
     padding: 0.5vw;
     background-color: lightgray;

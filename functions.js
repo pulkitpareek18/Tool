@@ -71,5 +71,28 @@ function get_video() {
 
 }
 
+//structure functions
+
+var data;
+function generatePost(){
+    let postTitle = document.getElementById("postTitle").value;
+    let metaDescription = document.getElementById("metaDescription").value;
+    let ogImage = document.getElementById("ogImage").value;
+    let mainContent = document.getElementById("mainContent").value;
+
+     data = `<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8">\n<meta http-equiv="X-UA-Compatible" content="IE=edge">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<meta name="description"\ncontent="${metaDescription}">\n<meta property="og:title" content="${postTitle}" />\n    <meta property="og:image" content="${ogImage}">\n<meta property="og:type" content="article" />\n<meta property="og:description"\ncontent="${metaDescription}" />\n<meta property="og:locale" content="en_US" />\n<link rel="stylesheet" href="/bootstrap.css">\n<link rel="stylesheet" href="/style.css">\n<link rel="stylesheet" href="/blog-style.css">\n<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">\n<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">\n<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">\n<link rel="manifest" href="/favicons/site.webmanifest">\n<title>${postTitle}</title>\n</head>\n<body>\n<!-- Navbar -->\n<nav class="navbar navbar-light bg-light mt-0">\n<div class="brand">\n<a class="navbar-brand" href="/">\n<img src="/img/ALLEN Plus.png" width="30" height="30" class="d-inline-block align-top" alt=""> ALLEN\nPlus\nVideo Grabber\n</a>\n</div>\n<div class="links">\n<a href="/">Home</a>\n<a href="/blog/">Blog</a>\n<a href="/about-us.html ">About Us</a>\n<a href="/contact-us.html">Contact Us</a>\n<a href="/privacy-policy.html">Privacy Policy</a>\n</div>\n</nav>\n<div class="container mt-5">\n<h1>${postTitle}</h1>${mainContent}\n</div>\n<!-- Footer -->\n<footer class="page-footer font-small blue" style="margin-top: 3rem;">\n<!-- Copyright -->\n<div id="footer" class="footer-copyright text-center py-3">©\n<script>document.write(new Date().getFullYear());</script> Copyright:\n<a href="/"> coachingvideograbber.ml</a>\n</div>\n</footer>\n</body>\n</html>`
+     document.getElementById("data").innerHTML = data;
+
+}
+
+function copy(){
+let textarea = document.getElementById("data");
+textarea.select();
+navigator.clipboard.writeText(data);
+window.alert("Copied Text:\n"+data)
+
+}
+
+
 
 

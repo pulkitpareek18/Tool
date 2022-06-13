@@ -1,0 +1,58 @@
+.container img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card p{
+    font-size: 1.2rem;
+}
+
+.card img{
+    width: auto;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    max-width: 16rem;
+}
+
+.container a{
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0px;
+    text-decoration: none; 
+    color: black;
+}
+
+.container a:hover{
+    color: blue !important;
+    
+    
+}
+.card p{
+    padding: 0.1rem;
+    margin: 0px;
+}
+
+.card {
+    max-height: 16rem;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+    .card{
+        flex-direction: column !important;
+        overflow: auto;
+        max-height: fit-content;
+    }
+    .card img{
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        max-width: 95%;
+        
+    }
+}
+
